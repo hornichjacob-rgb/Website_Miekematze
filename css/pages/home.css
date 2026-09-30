@@ -1,0 +1,86 @@
+/* ===============================
+   INTRO SECTION
+================================= */
+
+.section-intro {
+  background-color: #F1FFDD;
+  display: flex;
+  justify-content: center;
+}
+
+.headline_intro {
+  padding-top: 89px;
+
+  color: #506F26;
+  font-family: "LuckiestGuy", cursive;
+
+  font-size: 64px;
+  text-align: center;
+}
+
+/* ===============================
+   KONZEPT SECTION
+================================= */
+
+.section_konzept {
+  background-color: #47592F;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5rem;
+}
+
+/* ===============================
+   ALLTAG SECTION
+================================= */
+
+.section_alltag {
+  background-color: #e9a81d;
+  text-align: center;
+}
+
+.container_flexbox {
+  background-color: #f3f3f3;
+
+  padding: 2rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===============================
+   ANMELDUNG SECTION
+================================= */
+
+.section_anmeldung {
+  background-color: #47592F;
+
+  padding-top: 100px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===============================
+   FOOTER
+================================= */
+
+.footer {
+  background: #2f3e1c;
+  color: white;
+}
+
+.footer_container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 64px 24px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 48px;
+}
